@@ -8,12 +8,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.estimote.coresdk.common.requirements.SystemRequirementsChecker;
+
 import com.estimote.internal_plugins_api.scanning.BluetoothScanner;
 import com.estimote.internal_plugins_api.scanning.EstimoteTelemetryFrameB;
-import com.estimote.internal_plugins_api.scanning.EstimoteTelemetryFull;
 import com.estimote.internal_plugins_api.scanning.ScanHandler;
-import com.estimote.mustard.rx_goodness.rx_requirements_wizard.RequirementsWizardFactory;
-import com.estimote.scanning_sdk.api.EstimoteBluetoothScannerFactory;
+import com.estimote.scanning_plugin.api.EstimoteBluetoothScannerFactory;
+import com.estimote.scanning_plugin.api.EstimoteBluetoothScanner;
+
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -63,12 +64,12 @@ public class MainActivity extends AppCompatActivity {
                             return null;
                         }
                     })
-                    .withTimeout(60, TimeUnit.SECONDS)
+                    .withTimeout(300, TimeUnit.SECONDS)
                     .start();
         }
 
     }
-    
+
     @Override
     protected void onResume(){
         super.onResume();
