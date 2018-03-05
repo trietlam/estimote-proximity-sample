@@ -1,4 +1,4 @@
-package centrality.trackback.estimoteproximity;
+package lhmt.trackback.estimoteproximity;
 
 import org.junit.Test;
 

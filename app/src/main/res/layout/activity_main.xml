@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="centrality.trackback.estimoteproximity.MainActivity">
+    tools:context="lhmt.trackback.estimoteproximity.MainActivity">
 
     <TextView
         android:id="@+id/start_time"

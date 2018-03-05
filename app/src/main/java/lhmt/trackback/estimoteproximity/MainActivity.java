@@ -1,6 +1,5 @@
-package centrality.trackback.estimoteproximity;
+package lhmt.trackback.estimoteproximity;
 
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,7 +12,6 @@ import com.estimote.internal_plugins_api.scanning.BluetoothScanner;
 import com.estimote.internal_plugins_api.scanning.EstimoteTelemetryFrameB;
 import com.estimote.internal_plugins_api.scanning.ScanHandler;
 import com.estimote.scanning_plugin.api.EstimoteBluetoothScannerFactory;
-import com.estimote.scanning_plugin.api.EstimoteBluetoothScanner;
 
 
 import java.text.SimpleDateFormat;

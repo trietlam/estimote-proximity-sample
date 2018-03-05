@@ -1,4 +1,4 @@
-package centrality.trackback.estimoteproximity;
+package lhmt.trackback.estimoteproximity;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
